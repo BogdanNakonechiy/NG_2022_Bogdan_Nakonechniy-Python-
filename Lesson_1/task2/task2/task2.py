@@ -1,6 +1,5 @@
 numbA = float(input("Enter first numb >> "))
 numbB = float(input("Enter srcond numb >> "))
-
 action = input("Select action (+, -, *, /) > ")
 
 print("\nResult ")
