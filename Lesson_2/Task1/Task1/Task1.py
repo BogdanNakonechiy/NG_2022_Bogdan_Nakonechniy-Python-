@@ -7,6 +7,5 @@ for letter in array:
     else:
         counter.update({letter : 1})
 
-for k, v in counter.items():
-  print(k + " - " + str(v))
+print(sorted(counter.items(), key=lambda item: item[1]))
 
