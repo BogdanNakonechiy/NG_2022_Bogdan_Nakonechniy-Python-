@@ -1,7 +1,7 @@
 def sum(firstNumb, secondNumb):
     print("Sum of numbs - " + str(firstNumb + secondNumb))
 
-def sum(firstNumb, secondNumb):
+def sub(firstNumb, secondNumb):
     print("Sub of numbs - " + str(firstNumb - secondNumb))
 
 def mult(firstNumb, secondNumb):
