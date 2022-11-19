@@ -1,9 +1,9 @@
 counter = int(input("Input size: "))
 array = []
 
-for i in range(1, counter + 1):
-    array.append(i)
+for numb in range(1, counter + 1):
+    array.append(numb)
 
-for i in range(0, counter):
+for numbs in range(0, counter):
     print(str(array))
     array.pop(-1)
